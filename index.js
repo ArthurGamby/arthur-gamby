@@ -1,5 +1,12 @@
 #!/usr/bin/env node
-console.log(`Arthur gamby 
+
+const clearConsole = require("clear-any-console");
+
+//Clears the console
+clearConsole();
+
+console.log(`
+Arthur gamby 
 
 I am an engineer working for PlayStation in London for many years. 
 Javascript and React hold no secrets for me.
