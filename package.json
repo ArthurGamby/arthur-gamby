@@ -1,0 +1,7 @@
+{
+    "name": "arthur-gamby",
+    "version": "1.0.0",
+    "bin": {
+        "arthur-gamby": "index.js"
+    }
+}
