@@ -12,5 +12,12 @@
         "arthur gamby",
         "arthur",
         "gamby"
-    ]
+    ],
+    "license": "MIT",
+    "main":"index.js",
+    "author":{
+        "name":"Arthur Gamby",
+        "email":"arthur_dev@hotmail.com"
+    }
+
 }
