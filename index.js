@@ -1,27 +1,29 @@
 #!/usr/bin/env node
 const pkgJSON = require("./package.json");
 const welcome = require("cli-welcome");
+const chalk = require("chalk");
+const log = console.log;
+
+//Colors
+LkdColor = chalk.hex(`#00a0dc`).bold.inverse;
 
 welcome({
-  title: pkgJSON.name,
+  title: `Arthur Gamby`,
   tagLine: `Hi, Nice to meet you!`,
   description: pkgJSON.description,
   version: pkgJSON.version,
-  bgColor: `#FADC00`,
+  bgColor: `#ffffff`,
   color: `#000000`,
   bold: true,
   clear: true,
 });
 
-console.log(`
-Arthur gamby 
-
-I am an engineer working for PlayStation in London for many years. 
+log(`${chalk.italic(`I am an engineer working for PlayStation in London. 
 Javascript and React hold no secrets for me.
-On a personal level I have had the opportunity to live in Los Angeles, Dubai and Paris. 
+On a personal level I have had the opportunity to live in Los Angeles, Dubai and Paris.`)} 
 
-🎮  PlayStation: Epozeoner78
-📖  Github: https://github.com/ArthurGamby
-👨  LinkedIn: https://www.linkedin.com/in/arthur-gamby/
+${LkdColor(` LinkedIn `)} ${chalk.dim(
+  `https://www.linkedin.com/in/arthur-gamby/`
+)}
 
 `);
