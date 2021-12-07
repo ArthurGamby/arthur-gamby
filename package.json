@@ -1,6 +1,6 @@
 {
     "name": "arthur-gamby",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Get to know Arthur Gamby via `npx arthur-gamby`.",
     "bin": {
         "arthur-gamby": "index.js"
@@ -14,10 +14,9 @@
         "gamby"
     ],
     "license": "MIT",
-    "main":"index.js",
-    "author":{
-        "name":"Arthur Gamby",
-        "email":"arthur_dev@hotmail.com"
+    "main": "index.js",
+    "author": {
+        "name": "Arthur Gamby",
+        "email": "arthur_dev@hotmail.com"
     }
-
 }
